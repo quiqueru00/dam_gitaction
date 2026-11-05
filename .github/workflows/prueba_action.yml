@@ -1,0 +1,16 @@
+name: GitAction de prueba
+
+on:
+  push:
+  
+jobs:
+  mostrar_mensaje:
+    runs-on: ubuntu-latest
+    - name: Muedstra mensaje
+      run:
+        echo "Hola"
+  
+  trabajo2:
+  
+  
+  trabajo3:
