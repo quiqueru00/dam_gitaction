@@ -13,5 +13,5 @@ jobs:
     - name: Muestra fecha
       run:
         echo "Fecha " 
-        date  
+        $date  
   
