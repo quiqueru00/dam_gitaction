@@ -12,4 +12,7 @@ jobs:
         echo "Hola"
         echo "Fecha " 
         date  
-  
+    - name: Vereion java
+      run:
+        echo "Versión de java"
+        java -version || echo "Java no instalado"
