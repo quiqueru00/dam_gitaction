@@ -10,5 +10,7 @@ jobs:
     - name: Muestra mensaje
       run:
         echo "Hola"
+    - name: Muestra fecha
+      run:
         echo "Fecha " date  
   
