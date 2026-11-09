@@ -8,10 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Muestra mensaje
-      run:
+      run: |
         echo "Hola"
-    - name: Muestra fecha
-      run:
         echo "Fecha " 
-        $date  
+        date  
   
