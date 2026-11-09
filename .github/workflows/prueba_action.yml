@@ -7,8 +7,8 @@ jobs:
   mostrar_mensaje:
     runs-on: ubuntu-latest
     steps:
-    - name: Muedstra mensaje
+    - name: Muestra mensaje
       run:
         echo "Hola"
-  
+        echo "Fecha " date  
   
