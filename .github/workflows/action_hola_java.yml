@@ -18,4 +18,4 @@ jobs:
         javac src/hola.java
     - name: ejecurtamos el programa
       run:
-        java src/hola
+        java -cp src hola
